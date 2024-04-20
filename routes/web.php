@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
+
 Route::group(['prefix' => 'camisas', 'as' => 'camisas.'], function () {
     Route::get('/', [CamisaController::class, 'index'])->name('index');
     Route::post('/', [CamisaController::class, 'store'])->name('store');
