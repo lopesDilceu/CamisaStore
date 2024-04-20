@@ -3,7 +3,7 @@
 
 @section('content')
     <header>
-        <h2>Monte seu pedido de camisa</h2>
+        <h2>Monte o seu pedido de camisa</h2>
     </header>
     <div class="container">
         
